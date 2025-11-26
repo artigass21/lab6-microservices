@@ -1,10 +1,10 @@
 spring:
   application:
-    name: accounts-service  # Identify this application
+    name: accounts-service # Identify this application
 
 # HTTP Server
 server:
-  port: 3333   # HTTP (Tomcat) port
+  port: 1111 # HTTP (Tomcat) port
 
 management:
   info:

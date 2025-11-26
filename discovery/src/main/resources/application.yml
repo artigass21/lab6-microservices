@@ -25,6 +25,7 @@ eureka:
     # self-preservation mode and stops evicting instances (assumes network issue).
     # This prevents accidental mass eviction during network partitions.
     renewal-percent-threshold: 0.85
+    enable-self-preservation: false
 
 logging:
   level:
